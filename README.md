@@ -1,4 +1,4 @@
-# Projeto - Coding bootcamp testimonials slider
+# Projeto - Coding Bootcamp Testimonials Slider
 
 ![Design preview for the Coding bootcamp testimonials slider coding challenge](./design/desktop-preview.jpg)
 
