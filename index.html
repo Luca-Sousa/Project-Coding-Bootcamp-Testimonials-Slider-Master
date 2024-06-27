@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="src/assets/images/favicon-32x32.png">
   
@@ -10,21 +10,46 @@
 
   <link rel="stylesheet" href="src/output.css">
 </head>
-<body class="font-Inter">
+<body class="font-Inter min-h-screen bg-col-body bg-Img-pattern-curve bg-contain bg-no-repeat bg-left-bottom xl:bg-auto xl:flex xl:items-center xl:justify-center">
 
-  “ I’ve been interested in coding for a while but never taken the jump, until now. 
-  I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
-  excited about the future. ”
+  <main class=" px-8 py-6">
 
-  Tanya Sinclair
-  UX Engineer
+    <div class="flex flex-col items-center gap-16 xl:w-[1000px] xl:h-[500px] xl:flex-row xl:gap-0">
 
-  “ If you want to lay the best foundation possible I’d recommend taking this course. 
-  The depth the instructors go into is incredible. I now feel so confident about 
-  starting up as a professional developer. ”
+      <div class="flex w-full h-[380px] bg-Img-pattern-bg bg-contain bg-no-repeat bg-center justify-center items-center xl:h-full xl:w-1/2 xl:order-2">
+        <div class="w-[250px] xs:w-[300px] h-[250px] xs:h-[300px] rounded-lg bg-Img-tanya bg-contain bg-no-repeat relative shadow-sm shadow-col-GB xl:w-[400px] xl:h-[400px]">
+          
+          <figure class="flex justify-center items-center gap-6 w-20 bg-white py-3 rounded-3xl absolute top-full -translate-y-1/2 left-1/2 -translate-x-1/2 shadow-sm shadow-col-DB">
+            <img class="w-3 h-3 cursor-pointer hover:scale-125" src="src/assets/images/icon-prev.svg" alt="">
+            <img class="w-3 h-3 cursor-pointer hover:scale-125" src="src/assets/images/icon-next.svg" alt="">
+          </figure>
+        </div>
+      </div>
+  
+      <article class="max-w-sm mx-auto text-center space-y-4 relative z-0 xl:order-1 xl:w-1/2 xl:text-left xl:max-w-max xl:space-y-10">
+        <div class="h-14 bg-Img-pattern-quotes bg-contain bg-no-repeat bg-top absolute inset-0 -top-3 z-10 xl:bg-left-top xl:left-20"></div>
+        <p class="text-lg font-light xl:text-2xl">“ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m now in the job of my dreams and so excited about the future. ”</p>
+        <section class="flex flex-col xl:flex-row xl:gap-2">
+          <h2 class="font-bold text-col-DB xl:text-xl">Tanya Sinclair</h2>
+          <h4 class="font-medium text-col-GB xl:text-xl">UX Engineer</h4>
+        </section>  
+      </article>
+    </div>
+  
+    </div>
 
-  John Tarkpor
-  Junior Front-end Developer
+    <article class="hidden">
+  
+      “ If you want to lay the best foundation possible I’d recommend taking this course. 
+      The depth the instructors go into is incredible. I now feel so confident about 
+      starting up as a professional developer. ”
+    
+      John Tarkpor
+      Junior Front-end Developer
+  
+    </article>
+
+  </main>
   
 </body>
 </html>
